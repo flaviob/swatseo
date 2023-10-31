@@ -6,8 +6,7 @@ import compressor from "astro-compressor";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://fedepriisma.github.io',
-  base: '/swatseo',
+  site: 'https://www.swatseo.net',
   output: 'static', // for github pages
   integrations: [tailwind({
     config: {
