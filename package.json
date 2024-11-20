@@ -1,23 +1,40 @@
 {
-  "name": "@swatseo/main",
-  "version": "0.0.1",
+  "name": "next15-starter",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "devDependencies": {
-    "@astrojs/partytown": "^1.0.0",
-    "@astrojs/tailwind": "^5.0.0",
-    "astro": "^3.1.1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
-    "astro-compressor": "^0.4.0",
-    "astro-critters": "^2.0.11",
-    "autoprefixer": "^10.4.8",
-    "tailwindcss": "^3.3.3"
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.12",
+    "husky": "^9.0.11",
+    "lucide-react": "^0.381.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@xpd/tailwind-3dtransforms": "^1.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-tailwindcss": "^3.17.0",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
